@@ -1,0 +1,763 @@
+@import "base/_reset";
+@import "base/_variables";
+
+
+@media only screen and (max-width: 1199px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .property_banner{
+     width: 100%;
+     &__listing{
+        width: 50%;
+     }
+    }
+    .gray__ribbon{
+        width: 100%;
+       }
+    .heading_discription{
+        width: 100%;
+       }
+       .testimonials{
+        width: 100%;
+       }
+       .any_questins{
+        width: 90%;
+        &__image{
+           right: -35px;
+        }
+       }
+       .property__inspection{
+        width: 100%;
+       }
+       .exploreServices{
+        width: 100%;
+       }
+       .journey{
+        width: 100%;
+       }
+ }
+
+ @media only screen and (max-width: 1199px) {
+    .inspection{
+        width: 100%;
+       }
+    .services_process{
+     width: 100%;
+     &__listing::after{
+        width: 40%;
+        left: 60%;
+     }
+    }
+    .Mb_promises {
+        width: 90%;    
+    }
+ }
+
+
+@media only screen and (max-width: 991px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .container_fluid{
+        overflow-x: hidden;
+    }
+     .banner{
+        &__image{
+            height: 160px;
+        }
+        &__services{
+            display: none;
+        }
+        &__tagline{
+           // font-size: $font-size-xl;
+            left: 16px;
+            top: 52px;
+            font-weight: normal;
+            width: 100%;
+            &__location{
+                width: 28%;
+            }
+           
+        }
+
+    }
+   .property_banner{
+    width: 100%;
+    &__listing{
+        width: 50%;
+    }
+   }
+   .gray__ribbon,.heading_discription{
+    width: 100%;
+   }
+   .heading_discription{
+    width: 100%;
+   }
+   .testimonials{
+    width: 100%;
+   }
+   .any_questins{
+    width: 160%;
+    &__image{
+        display: none;
+    }
+   }
+   .property__inspection{
+    width: 100%;
+   }
+   .exploreServices{
+    width: 100%;
+   }
+   .journey{
+  
+    width: 200%;
+    display: block;
+   &__image{
+    width: wi;
+    display: block;
+    left: 20%;
+   }
+   }
+}
+
+@media only screen and (max-width: 991px) {
+    .inspection{
+        width: 100%;
+       }
+//    .services_process{
+//     width: 100%;
+//        &__listing::after{
+//             width: 50%;
+//             left: 50%     
+//        }
+//    }
+   .Mb_promises {
+    width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container{
+        overflow-x: hidden;
+    }
+    
+    .banner{
+        &__image{
+            height: 160px;
+        }
+        &__services{
+            display: none;
+        }
+        &__tagline{
+           font-size: 24px;
+           white-space: normal;
+            left: 16px;
+            top: 52px;
+            font-weight: normal;
+            width: 100%;
+            display: block;
+           &__location{
+                width:30%;
+            }
+            &__location::after{
+                width: 6px;
+                height: 6px;
+            }
+            .dropdown{
+                font-size: 24px;
+            }
+           
+        }
+
+    }
+    .property_banner{
+    width: 100%;
+    display: block;
+    &__listing{
+        width: 100%;
+        display: block;
+    }
+    }
+    .gray__ribbon,.heading_discription{
+        width: 100%;
+        }
+    .heading_discription{
+        width: 100%;
+    }
+    .swiperMain{
+        width: 90%;
+        .swiper-button-prev{
+        display: none;
+        }
+        .swiper-button-next{
+            display: none;
+            }
+    }
+    .swiperMain2{
+        width: 90%;
+        .swiper-button-prev{
+        display: none;
+        }
+        .swiper-button-next{
+            display: none;
+            }
+    }
+    .testimonials{
+        width: 100%;
+        display: block;
+        &__fromCustomers{
+            padding:32px 0 0 16px;
+        }
+        &__reviews{
+          margin-top: 16px;
+            margin-left: 16px;
+            &__listing{
+                width: 100%;
+                border-radius: 8px;
+                &__personal_info{
+                    &__photo{
+                        margin-top: 8px;
+                        margin-left: 8px;
+                        width: 68px;
+                        height: 51px;
+                    }
+                    &__background{
+                        position: absolute;
+                        top: 8px;
+                        left: 8px;
+                        width: 68px;
+                        height: 51px;
+                    }
+                    &__name{
+                        margin-top: 8px;
+                        margin-left: 8px;
+                    }
+                }
+                &__quoteStart{
+                    left: 86px;
+                    top: 14px;
+                }
+                &__discription{
+                    margin-left: 31px;
+                    margin-top: 12px;
+                    //padding-right: 16px;
+                   // width: 60;
+                }
+                
+            }
+        }
+    }
+    .any_questins{
+        width: 150%;
+       
+        &__image{
+            display: none;
+        }
+    }
+    .property__inspection{
+        width: 100%;
+    }
+    .exploreServices{
+        width: 100%;
+    }
+    .journey{
+        width: 200%;
+        display: block;
+       &__image{
+        width: wi;
+        display: block;
+        left: 0;
+       }
+       }
+
+ }
+
+ //one
+ @media only screen and (max-width: 767px) {
+    .inspection{
+        width: 100%;
+        display: block;
+        margin-top: 0;
+        &__listing{
+            margin-top: 46px;
+            display: flex;
+            &__info{
+                &__discription{
+                    width: 100%;
+                    margin-top: 8px;
+                }
+                .large{
+                    width: 86%;
+                }
+            }
+        }
+     }
+    .services_process {
+    width: 100%;
+    display: block;
+     display:grid;
+     grid-template-columns:50% 50%;
+    &__listing{
+        width: 100%;
+        padding: 0 16px;
+        &__stepName{
+            margin-top: 18px;
+            width: 100%;
+        }
+       }
+       &__listing::after{
+            display: none;
+       }
+    }
+    .Mb_promises {
+        width: 100%;
+        display: block;
+        padding: 0 16px;
+        &__listing{
+            width: 100%;
+            margin-top: 46px;
+            display: flex;
+            &__image{
+                margin-right: 16px;
+                &__icon{
+                    width: 68px;
+                    height: 68px;
+                }
+            }
+            &__text{
+                &__title{
+                    font-size: $font-size-md;
+                    font-weight: $font-weight-semi-bold;
+                }
+                &__discription{
+                    width: 60%;
+                }
+            }
+        }
+    }
+   
+ }
+
+
+ @media screen and (max-width: 575px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .container_fluid{
+        overflow-x: hidden;
+    }
+    .banner{
+        &__image{
+            height: 160px;
+        }
+        &__services{
+            display: none;
+        }
+        &__tagline{
+            font-size: $font-size-xl;
+           white-space: normal;
+            left: 16px;
+            top: 52px;
+            font-weight: normal;
+            width: 100%;
+            display: block;
+            &__location{
+                width:30%;
+            }
+            &__location::after{
+                width: 6px;
+                height: 6px;
+            }
+            .dropdown{
+                font-size: 18px;
+            }
+           
+        }
+
+    }
+    .property_banner{
+        width: 100%;
+        
+    }
+    .gray__ribbon,.heading_discription{
+        width: 100%; 
+    }
+    .heading_discription{
+        width: 100%; 
+    }
+    .testimonials{
+        width: 100%;
+    }
+    .any_questins{
+        width:100%; 
+        &__heading{
+            width: 90%;
+        }
+        &__listing{
+            width: 100%;
+            &__item{
+                &__qsn{
+                    width: 90%;
+                    font-size: $font-size-md;
+                    &__arrow{
+                        right:-10px;
+                    }
+                }
+                .accordion::after{
+                    right: -3px;
+                }
+              
+            }
+
+        }
+
+    }
+    .property__inspection{
+        width: 100%;
+       }
+    .exploreServices{
+        width: 100%;
+    }
+    .journey{
+        width: 180%;
+    }
+ }
+
+ @media screen and (max-width: 414px) {
+    .container{
+        padding: 0;
+        overflow-x:hidden ;
+    }
+    .header{
+        height: 44px;
+        &__brand{
+            font-size: $font-size-xl;
+        }
+        &__anchor{
+            display: none;
+        }
+        &__hamburger{
+            padding: 14px 16px;
+            &__line{
+                content: "";
+                width: 15px;
+                height: 2px;
+                border-bottom: 2px solid $white;
+                //position: absolute;
+                padding: 1px;
+            
+            }
+        }
+    }
+    .banner{
+        &__image{
+            height: 160px;
+        }
+        &__services{
+            display: none;
+        }
+        &__tagline{
+            font-size: $font-size-xl;
+            left: 16px;
+            top: 52px;
+            font-weight: normal;
+            display: block;
+            .custom-select{
+                margin: 0;
+            }
+           .select-selected{
+            width: 66%;
+           }
+           .select-selected::after{
+            width: 6px;
+            height: 6px;
+            top: 4px;
+            right: 50px;
+           }
+           .select-items div{
+            padding: 0;
+           }
+        }
+
+    }
+    .heading{
+        margin-top: 32px;
+        font-size: $font-size-xl;
+        font-weight: $font-weight-bold;
+    }
+    .padded{
+        padding: 0 16px;
+    }
+    .inspection{
+        margin-top:32px;
+        padding: 0 16px;
+        margin-bottom: -10px;
+        &__listing{
+            margin-top: 24px;
+            &__image{
+                width: 30px;
+                height: 25px;
+            }
+            &__info{
+                width: 100%;
+                &__heading{
+                    font-size: $font-size-lg;
+                    font-weight: $font-weight-semi-bold;
+                }
+                &__discription{
+                    width: 90%;
+                    line-height: 1.5;
+                }
+               
+            }
+        }
+    }
+    .property_banner__web{
+        // width: 100%;
+        // padding: 0 16px;
+        // margin-bottom: -10px;
+        display: none;
+    }
+    .property_banner__mobile{
+        // width: 100%;
+        display:block;
+        .swiper{
+            overflow: visible;
+        }
+        .property_banner{
+            padding: 0 16px;
+            display: flex;
+          
+        }
+        
+     }
+    .gray__ribbon{
+        width: 100%;  
+        margin-top: 32px;
+    }
+    .heading_discription{
+        width: 100%; 
+        line-height: 1.43; 
+    }
+    .services_process {
+        width: 100%;
+      // display: block;
+      //  display:grid;
+        grid-template-columns:60% 60%;
+         padding: 0 16px;
+        &__listing{
+            width: 120%;
+            &__image{
+                width: 80px;
+                height: 65px;
+            }
+            &__stepName{
+                font-size:$font-size-md;   
+            }
+           }
+           &__listing::after{
+                display: none;
+           }
+        }
+    .Mb_promises {
+        width: 100%;
+        display: block;
+        padding: 0 16px;
+        &__listing{
+            width: 100%;
+            margin-top: 46px;
+            display: flex;
+            &__image{
+                margin-right: 16px;
+                &__icon{
+                    width: 68px;
+                    height: 68px;
+                    margin-top: 22px;
+                }
+            }
+            &__text{
+                &__title{
+                    font-size: $font-size-md;
+                    font-weight: $font-weight-semi-bold;
+                }
+                &__discription{
+                    width: 100%;
+                    line-height: 1.43;
+                }
+            }
+        }
+    }
+    .testimonials{
+        width: 100%;
+        display: block;
+       
+        &__blur{
+            display: none;
+        }
+        &__fromCustomers{
+            width: 100%;
+           // padding: 32px 0 16px 16px;
+            font-size: $font-size-xl;
+        }
+        &__reviews{
+            width: 100%;
+           // margin-right: 20px;
+            &__listing{
+                box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.1);
+                &__discription{
+                    white-space: nowwrap;
+                    margin: 12px 15px 22px 31px;
+                }
+                &__quoteEnd{
+                    right: 14px;
+                    bottom: 24px;
+                }
+            }
+        }
+    }
+    .swiperMain{
+        width: 100%;
+    }
+    .swiper-horizontal
+    {
+        padding-right: 30px;
+    } 
+    .any_questins{
+        width: 100%;
+        padding: 0;
+        border-radius: 4px;
+        &__heading{
+            padding: 0 16px;
+            width: 110%;
+            margin-top: 33px;
+            font-size: $font-size-xl;
+        }
+        &__listing{
+            width: 120%;
+            padding: 0 16px;
+            &__item{
+                position: relative;
+                border-radius: 4px;
+                padding: 16px 0 1px 12px;
+                &__qsn{
+                    font-size: $font-size-md;
+                    width: 80%;
+                    &__arrow{
+                        right:-44px ;
+                    }
+                }
+                &__ans{
+                    margin-top: 12px;
+                }
+                .accordion::after{
+                    right: -37px;
+                }
+            }
+        }
+    }
+    .property__inspection{
+       padding: 0;
+       padding-left:16px ;
+        width: 100%;
+       .property-inspection__listing__item{
+        box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.1);
+        border: solid 0.5px #d8d8d8;
+       }
+        .heading{
+            width: 80%;
+        }
+        .property-inspection__listing__item__discription{
+            font-size: $font-size-md;
+        }
+    }
+    .exploreServices{
+        width: 100%;
+        padding:0;
+        padding:32px 0;
+        padding-left: 16px;
+        
+        .ezplore_other_services__listing__item__icon{
+            width: 68px;
+            height: 68px;
+        }
+        .ezplore_other_services{
+            &__listing{
+                &__item{
+                    &__discription{
+                        &__heading{
+                            font-size: $font-size-lg;
+                        }
+                        &__text{
+                            width: 110%;
+                            line-height: 1.43;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .journey{
+        width: 214%;
+        display: block;
+        padding: 0 16px;
+        &__discription{
+            &__text{
+                font-size: $font-size-md;
+                line-height: 1.43;
+            }
+        }
+        &__image{
+            width: 50%;
+            display: block;
+            position: absolute;
+            left: 0;
+            margin-top: 12px;
+        }
+        .journey__discription{
+            .journey__discription__overview{
+                
+                &__count{
+                    font-size: 24px;
+                }
+                &__details{
+                    font-size: $font-size-md;
+                    width: 100%;
+                }
+            }
+        }
+    }
+ }
+ 
+ @media screen and (max-width: 320px) {
+    .container{
+        overflow-x: hidden;
+    }
+    .property_banner{
+        width: 100%;
+    }
+    .gray__ribbon,.heading_discription{
+        width: 100%;
+    }
+    .heading_discription{
+        width: 100%;
+    }
+    .testimonials{
+        width: 100%;
+    }
+    .any_questins{
+        width: 100%;
+    }
+    .property__inspection{
+        width:100%;
+    }
+    .exploreServices{
+        width: 100%;
+    }
+    .journey{
+        width: 100%;
+    }
+ }
+
+//three
